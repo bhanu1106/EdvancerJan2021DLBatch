@@ -2,9 +2,9 @@
 This is Edvancer's deeplearning project . The data is available here https://www.dropbox.com/sh/kpf9z73woodfssv/AAAw1_JIzpuVvwteJCma0xMla?dl=0 
 Train file have 3 columns q_id , question_text , target . we need to find out whether a question_text is spam or not. 
 so we can drop q_id column and predict the target column based on question_text.
-I am using glove embeddings to fill the values of embedding matrix in the embedding layer of the model 
-we can download glove embeddings from here http://nlp.stanford.edu/data/glove.42B.300d.zip
-getting values from glove embeddings 
+I am using glove embeddings to fill the values of embedding matrix in the embedding layer of the model .
+we can download glove embeddings from here http://nlp.stanford.edu/data/glove.42B.300d.zip .
+getting values from glove embeddings .
 embeding_index={}
 
 f=open('glove.42B.300d.txt',encoding='utf-8')
